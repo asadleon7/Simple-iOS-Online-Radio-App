@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1700AB2D1FF4F1E5009A2F52 /* TransGlass.png in Resources */ = {isa = PBXBuildFile; fileRef = 1700AB2C1FF4F1E5009A2F52 /* TransGlass.png */; };
+		1700AB301FF4F251009A2F52 /* sOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1700AB2E1FF4F250009A2F52 /* sOn.png */; };
+		1700AB311FF4F251009A2F52 /* Soff.png in Resources */ = {isa = PBXBuildFile; fileRef = 1700AB2F1FF4F250009A2F52 /* Soff.png */; };
+		1700AB331FF51648009A2F52 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1700AB321FF51648009A2F52 /* UIDevice.swift */; };
+		170DBFF81FEE7ABA00218172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DBFF71FEE7ABA00218172 /* AppDelegate.swift */; };
+		170DBFFA1FEE7ABA00218172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DBFF91FEE7ABA00218172 /* ViewController.swift */; };
+		170DBFFD1FEE7ABA00218172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170DBFFB1FEE7ABA00218172 /* Main.storyboard */; };
+		170DBFFF1FEE7ABA00218172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170DBFFE1FEE7ABA00218172 /* Assets.xcassets */; };
+		170DC0021FEE7ABA00218172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170DC0001FEE7ABA00218172 /* LaunchScreen.storyboard */; };
+		170DC00D1FEE7ABA00218172 /* Radio_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DC00C1FEE7ABA00218172 /* Radio_AppTests.swift */; };
+		170DC0181FEE7ABA00218172 /* Radio_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170DC0171FEE7ABA00218172 /* Radio_AppUITests.swift */; };
+		173F4A031FF546560052A9A4 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 173F4A021FF546560052A9A4 /* play.png */; };
+		17409A541FF3A094008DB901 /* ButtonSide.png in Resources */ = {isa = PBXBuildFile; fileRef = 17409A531FF3A094008DB901 /* ButtonSide.png */; };
+		17409A561FF3A161008DB901 /* Back2048x2732.png in Resources */ = {isa = PBXBuildFile; fileRef = 17409A551FF3A161008DB901 /* Back2048x2732.png */; };
+		17409A5B1FF3A395008DB901 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 17409A591FF3A394008DB901 /* pause.png */; };
+		17409A651FF3A7EB008DB901 /* live-logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 17409A621FF3A7EB008DB901 /* live-logo.gif */; };
+		17409A681FF3B641008DB901 /* Scale.png in Resources */ = {isa = PBXBuildFile; fileRef = 17409A671FF3B641008DB901 /* Scale.png */; };
+		17409A6A1FF3B734008DB901 /* Knob.png in Resources */ = {isa = PBXBuildFile; fileRef = 17409A691FF3B734008DB901 /* Knob.png */; };
+		1779AAEC1FF7C0EF004238FF /* i-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AADD1FF7C0ED004238FF /* i-60@2x.png */; };
+		1779AAED1FF7C0EF004238FF /* i-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AADE1FF7C0ED004238FF /* i-40@3x.png */; };
+		1779AAEE1FF7C0EF004238FF /* i-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AADF1FF7C0ED004238FF /* i-76.png */; };
+		1779AAEF1FF7C0EF004238FF /* i-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE01FF7C0ED004238FF /* i-20@2x.png */; };
+		1779AAF01FF7C0EF004238FF /* i-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE11FF7C0EE004238FF /* i-29.png */; };
+		1779AAF11FF7C0EF004238FF /* i-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE21FF7C0EE004238FF /* i-76@2x.png */; };
+		1779AAF21FF7C0EF004238FF /* i-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE31FF7C0EE004238FF /* i-40.png */; };
+		1779AAF31FF7C0EF004238FF /* i-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE41FF7C0EE004238FF /* i-1024.png */; };
+		1779AAF41FF7C0EF004238FF /* i-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE51FF7C0EE004238FF /* i-29@3x.png */; };
+		1779AAF51FF7C0EF004238FF /* i-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE61FF7C0EE004238FF /* i-29@2x.png */; };
+		1779AAF61FF7C0EF004238FF /* i-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE71FF7C0EE004238FF /* i-60@3x.png */; };
+		1779AAF71FF7C0EF004238FF /* i-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE81FF7C0EE004238FF /* i-40@2x.png */; };
+		1779AAF81FF7C0EF004238FF /* i-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAE91FF7C0EE004238FF /* i-20@3x.png */; };
+		1779AAF91FF7C0EF004238FF /* i-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAEA1FF7C0EF004238FF /* i-83.5@2x.png */; };
+		1779AAFA1FF7C0EF004238FF /* i-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 1779AAEB1FF7C0EF004238FF /* i-20.png */; };
+		17CBD9B11FEFC1EF007AA0D3 /* Logo for App.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17CBD9B01FEFC1EF007AA0D3 /* Logo for App.jpg */; };
+		17CBD9BF1FEFD449007AA0D3 /* insideLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17CBD9BE1FEFD448007AA0D3 /* insideLogo.jpg */; };
+		17E225461FEF6FAC00292A7E /* GifAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E225451FEF6FAC00292A7E /* GifAnim.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		170DC0091FEE7ABA00218172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170DBFEC1FEE7ABA00218172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170DBFF31FEE7ABA00218172;
+			remoteInfo = "Radio App";
+		};
+		170DC0141FEE7ABA00218172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 170DBFEC1FEE7ABA00218172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 170DBFF31FEE7ABA00218172;
+			remoteInfo = "Radio App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1700AB2C1FF4F1E5009A2F52 /* TransGlass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TransGlass.png; sourceTree = "<group>"; };
+		1700AB2E1FF4F250009A2F52 /* sOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sOn.png; sourceTree = "<group>"; };
+		1700AB2F1FF4F250009A2F52 /* Soff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soff.png; sourceTree = "<group>"; };
+		1700AB321FF51648009A2F52 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		1700AB341FF5253B009A2F52 /* Radio App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Radio App.entitlements"; sourceTree = "<group>"; };
+		170DBFF41FEE7ABA00218172 /* Radio App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170DBFF71FEE7ABA00218172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		170DBFF91FEE7ABA00218172 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		170DBFFC1FEE7ABA00218172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		170DBFFE1FEE7ABA00218172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		170DC0011FEE7ABA00218172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		170DC0031FEE7ABA00218172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170DC0081FEE7ABA00218172 /* Radio AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radio AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170DC00C1FEE7ABA00218172 /* Radio_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio_AppTests.swift; sourceTree = "<group>"; };
+		170DC00E1FEE7ABA00218172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170DC0131FEE7ABA00218172 /* Radio AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Radio AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		170DC0171FEE7ABA00218172 /* Radio_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio_AppUITests.swift; sourceTree = "<group>"; };
+		170DC0191FEE7ABA00218172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		173F4A021FF546560052A9A4 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		17409A531FF3A094008DB901 /* ButtonSide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonSide.png; sourceTree = "<group>"; };
+		17409A551FF3A161008DB901 /* Back2048x2732.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back2048x2732.png; sourceTree = "<group>"; };
+		17409A591FF3A394008DB901 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		17409A621FF3A7EB008DB901 /* live-logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "live-logo.gif"; sourceTree = "<group>"; };
+		17409A671FF3B641008DB901 /* Scale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scale.png; sourceTree = "<group>"; };
+		17409A691FF3B734008DB901 /* Knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Knob.png; sourceTree = "<group>"; };
+		1779AADD1FF7C0ED004238FF /* i-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-60@2x.png"; sourceTree = "<group>"; };
+		1779AADE1FF7C0ED004238FF /* i-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-40@3x.png"; sourceTree = "<group>"; };
+		1779AADF1FF7C0ED004238FF /* i-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-76.png"; sourceTree = "<group>"; };
+		1779AAE01FF7C0ED004238FF /* i-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-20@2x.png"; sourceTree = "<group>"; };
+		1779AAE11FF7C0EE004238FF /* i-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-29.png"; sourceTree = "<group>"; };
+		1779AAE21FF7C0EE004238FF /* i-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-76@2x.png"; sourceTree = "<group>"; };
+		1779AAE31FF7C0EE004238FF /* i-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-40.png"; sourceTree = "<group>"; };
+		1779AAE41FF7C0EE004238FF /* i-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-1024.png"; sourceTree = "<group>"; };
+		1779AAE51FF7C0EE004238FF /* i-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-29@3x.png"; sourceTree = "<group>"; };
+		1779AAE61FF7C0EE004238FF /* i-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-29@2x.png"; sourceTree = "<group>"; };
+		1779AAE71FF7C0EE004238FF /* i-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-60@3x.png"; sourceTree = "<group>"; };
+		1779AAE81FF7C0EE004238FF /* i-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-40@2x.png"; sourceTree = "<group>"; };
+		1779AAE91FF7C0EE004238FF /* i-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-20@3x.png"; sourceTree = "<group>"; };
+		1779AAEA1FF7C0EF004238FF /* i-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-83.5@2x.png"; sourceTree = "<group>"; };
+		1779AAEB1FF7C0EF004238FF /* i-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "i-20.png"; sourceTree = "<group>"; };
+		17CBD9B01FEFC1EF007AA0D3 /* Logo for App.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Logo for App.jpg"; sourceTree = "<group>"; };
+		17CBD9BE1FEFD448007AA0D3 /* insideLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = insideLogo.jpg; sourceTree = "<group>"; };
+		17E225451FEF6FAC00292A7E /* GifAnim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifAnim.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170DBFF11FEE7ABA00218172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170DC0051FEE7ABA00218172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170DC0101FEE7ABA00218172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170DBFEB1FEE7ABA00218172 = {
+			isa = PBXGroup;
+			children = (
+				173F4A171FF54BEB0052A9A4 /* Icons */,
+				170DBFF61FEE7ABA00218172 /* Radio App */,
+				170DC00B1FEE7ABA00218172 /* Radio AppTests */,
+				170DC0161FEE7ABA00218172 /* Radio AppUITests */,
+				170DBFF51FEE7ABA00218172 /* Products */,
+				173F4A041FF5488E0052A9A4 /* LaunchImage */,
+				17B97ED81FEEC50700404DF4 /* Images */,
+			);
+			sourceTree = "<group>";
+		};
+		170DBFF51FEE7ABA00218172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170DBFF41FEE7ABA00218172 /* Radio App.app */,
+				170DC0081FEE7ABA00218172 /* Radio AppTests.xctest */,
+				170DC0131FEE7ABA00218172 /* Radio AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		170DBFF61FEE7ABA00218172 /* Radio App */ = {
+			isa = PBXGroup;
+			children = (
+				1700AB341FF5253B009A2F52 /* Radio App.entitlements */,
+				170DBFF71FEE7ABA00218172 /* AppDelegate.swift */,
+				170DBFF91FEE7ABA00218172 /* ViewController.swift */,
+				17E225451FEF6FAC00292A7E /* GifAnim.swift */,
+				170DBFFB1FEE7ABA00218172 /* Main.storyboard */,
+				170DBFFE1FEE7ABA00218172 /* Assets.xcassets */,
+				170DC0001FEE7ABA00218172 /* LaunchScreen.storyboard */,
+				170DC0031FEE7ABA00218172 /* Info.plist */,
+				1700AB321FF51648009A2F52 /* UIDevice.swift */,
+			);
+			path = "Radio App";
+			sourceTree = "<group>";
+		};
+		170DC00B1FEE7ABA00218172 /* Radio AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				170DC00C1FEE7ABA00218172 /* Radio_AppTests.swift */,
+				170DC00E1FEE7ABA00218172 /* Info.plist */,
+			);
+			path = "Radio AppTests";
+			sourceTree = "<group>";
+		};
+		170DC0161FEE7ABA00218172 /* Radio AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				170DC0171FEE7ABA00218172 /* Radio_AppUITests.swift */,
+				170DC0191FEE7ABA00218172 /* Info.plist */,
+			);
+			path = "Radio AppUITests";
+			sourceTree = "<group>";
+		};
+		173F4A041FF5488E0052A9A4 /* LaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				17CBD9BE1FEFD448007AA0D3 /* insideLogo.jpg */,
+			);
+			path = LaunchImage;
+			sourceTree = "<group>";
+		};
+		173F4A171FF54BEB0052A9A4 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				1779AAEB1FF7C0EF004238FF /* i-20.png */,
+				1779AAE01FF7C0ED004238FF /* i-20@2x.png */,
+				1779AAE91FF7C0EE004238FF /* i-20@3x.png */,
+				1779AAE11FF7C0EE004238FF /* i-29.png */,
+				1779AAE61FF7C0EE004238FF /* i-29@2x.png */,
+				1779AAE51FF7C0EE004238FF /* i-29@3x.png */,
+				1779AAE31FF7C0EE004238FF /* i-40.png */,
+				1779AAE81FF7C0EE004238FF /* i-40@2x.png */,
+				1779AADE1FF7C0ED004238FF /* i-40@3x.png */,
+				1779AADD1FF7C0ED004238FF /* i-60@2x.png */,
+				1779AAE71FF7C0EE004238FF /* i-60@3x.png */,
+				1779AADF1FF7C0ED004238FF /* i-76.png */,
+				1779AAE21FF7C0EE004238FF /* i-76@2x.png */,
+				1779AAEA1FF7C0EF004238FF /* i-83.5@2x.png */,
+				1779AAE41FF7C0EE004238FF /* i-1024.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		17B97ED81FEEC50700404DF4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				17409A551FF3A161008DB901 /* Back2048x2732.png */,
+				17409A531FF3A094008DB901 /* ButtonSide.png */,
+				17CBD9B01FEFC1EF007AA0D3 /* Logo for App.jpg */,
+				17409A591FF3A394008DB901 /* pause.png */,
+				173F4A021FF546560052A9A4 /* play.png */,
+				17409A621FF3A7EB008DB901 /* live-logo.gif */,
+				17409A671FF3B641008DB901 /* Scale.png */,
+				1700AB2C1FF4F1E5009A2F52 /* TransGlass.png */,
+				1700AB2F1FF4F250009A2F52 /* Soff.png */,
+				1700AB2E1FF4F250009A2F52 /* sOn.png */,
+				17409A691FF3B734008DB901 /* Knob.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170DBFF31FEE7ABA00218172 /* Radio App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170DC01C1FEE7ABA00218172 /* Build configuration list for PBXNativeTarget "Radio App" */;
+			buildPhases = (
+				170DBFF01FEE7ABA00218172 /* Sources */,
+				170DBFF11FEE7ABA00218172 /* Frameworks */,
+				170DBFF21FEE7ABA00218172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Radio App";
+			productName = "Radio App";
+			productReference = 170DBFF41FEE7ABA00218172 /* Radio App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		170DC0071FEE7ABA00218172 /* Radio AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170DC01F1FEE7ABA00218172 /* Build configuration list for PBXNativeTarget "Radio AppTests" */;
+			buildPhases = (
+				170DC0041FEE7ABA00218172 /* Sources */,
+				170DC0051FEE7ABA00218172 /* Frameworks */,
+				170DC0061FEE7ABA00218172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170DC00A1FEE7ABA00218172 /* PBXTargetDependency */,
+			);
+			name = "Radio AppTests";
+			productName = "Radio AppTests";
+			productReference = 170DC0081FEE7ABA00218172 /* Radio AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		170DC0121FEE7ABA00218172 /* Radio AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170DC0221FEE7ABA00218172 /* Build configuration list for PBXNativeTarget "Radio AppUITests" */;
+			buildPhases = (
+				170DC00F1FEE7ABA00218172 /* Sources */,
+				170DC0101FEE7ABA00218172 /* Frameworks */,
+				170DC0111FEE7ABA00218172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				170DC0151FEE7ABA00218172 /* PBXTargetDependency */,
+			);
+			name = "Radio AppUITests";
+			productName = "Radio AppUITests";
+			productReference = 170DC0131FEE7ABA00218172 /* Radio AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170DBFEC1FEE7ABA00218172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = AWAL;
+				TargetAttributes = {
+					170DBFF31FEE7ABA00218172 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					170DC0071FEE7ABA00218172 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 170DBFF31FEE7ABA00218172;
+					};
+					170DC0121FEE7ABA00218172 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 170DBFF31FEE7ABA00218172;
+					};
+				};
+			};
+			buildConfigurationList = 170DBFEF1FEE7ABA00218172 /* Build configuration list for PBXProject "Radio App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 170DBFEB1FEE7ABA00218172;
+			productRefGroup = 170DBFF51FEE7ABA00218172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170DBFF31FEE7ABA00218172 /* Radio App */,
+				170DC0071FEE7ABA00218172 /* Radio AppTests */,
+				170DC0121FEE7ABA00218172 /* Radio AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		170DBFF21FEE7ABA00218172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CBD9B11FEFC1EF007AA0D3 /* Logo for App.jpg in Resources */,
+				1779AAF21FF7C0EF004238FF /* i-40.png in Resources */,
+				1779AAF41FF7C0EF004238FF /* i-29@3x.png in Resources */,
+				17CBD9BF1FEFD449007AA0D3 /* insideLogo.jpg in Resources */,
+				1779AAF91FF7C0EF004238FF /* i-83.5@2x.png in Resources */,
+				1779AAEE1FF7C0EF004238FF /* i-76.png in Resources */,
+				1779AAF81FF7C0EF004238FF /* i-20@3x.png in Resources */,
+				17409A681FF3B641008DB901 /* Scale.png in Resources */,
+				170DC0021FEE7ABA00218172 /* LaunchScreen.storyboard in Resources */,
+				1779AAED1FF7C0EF004238FF /* i-40@3x.png in Resources */,
+				1779AAEC1FF7C0EF004238FF /* i-60@2x.png in Resources */,
+				1779AAFA1FF7C0EF004238FF /* i-20.png in Resources */,
+				1779AAF11FF7C0EF004238FF /* i-76@2x.png in Resources */,
+				1700AB2D1FF4F1E5009A2F52 /* TransGlass.png in Resources */,
+				17409A5B1FF3A395008DB901 /* pause.png in Resources */,
+				1700AB301FF4F251009A2F52 /* sOn.png in Resources */,
+				1779AAF31FF7C0EF004238FF /* i-1024.png in Resources */,
+				17409A6A1FF3B734008DB901 /* Knob.png in Resources */,
+				170DBFFF1FEE7ABA00218172 /* Assets.xcassets in Resources */,
+				17409A541FF3A094008DB901 /* ButtonSide.png in Resources */,
+				17409A561FF3A161008DB901 /* Back2048x2732.png in Resources */,
+				1779AAEF1FF7C0EF004238FF /* i-20@2x.png in Resources */,
+				1779AAF71FF7C0EF004238FF /* i-40@2x.png in Resources */,
+				170DBFFD1FEE7ABA00218172 /* Main.storyboard in Resources */,
+				1779AAF01FF7C0EF004238FF /* i-29.png in Resources */,
+				1779AAF61FF7C0EF004238FF /* i-60@3x.png in Resources */,
+				173F4A031FF546560052A9A4 /* play.png in Resources */,
+				1700AB311FF4F251009A2F52 /* Soff.png in Resources */,
+				1779AAF51FF7C0EF004238FF /* i-29@2x.png in Resources */,
+				17409A651FF3A7EB008DB901 /* live-logo.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170DC0061FEE7ABA00218172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170DC0111FEE7ABA00218172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170DBFF01FEE7ABA00218172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170DBFFA1FEE7ABA00218172 /* ViewController.swift in Sources */,
+				17E225461FEF6FAC00292A7E /* GifAnim.swift in Sources */,
+				170DBFF81FEE7ABA00218172 /* AppDelegate.swift in Sources */,
+				1700AB331FF51648009A2F52 /* UIDevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170DC0041FEE7ABA00218172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170DC00D1FEE7ABA00218172 /* Radio_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		170DC00F1FEE7ABA00218172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170DC0181FEE7ABA00218172 /* Radio_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		170DC00A1FEE7ABA00218172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170DBFF31FEE7ABA00218172 /* Radio App */;
+			targetProxy = 170DC0091FEE7ABA00218172 /* PBXContainerItemProxy */;
+		};
+		170DC0151FEE7ABA00218172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 170DBFF31FEE7ABA00218172 /* Radio App */;
+			targetProxy = 170DC0141FEE7ABA00218172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		170DBFFB1FEE7ABA00218172 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170DBFFC1FEE7ABA00218172 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		170DC0001FEE7ABA00218172 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				170DC0011FEE7ABA00218172 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		170DC01A1FEE7ABA00218172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		170DC01B1FEE7ABA00218172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		170DC01D1FEE7ABA00218172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Radio App/Radio App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 2979M63C78;
+				INFOPLIST_FILE = "Radio App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awal.capitalradio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		170DC01E1FEE7ABA00218172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Radio App/Radio App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 2979M63C78;
+				INFOPLIST_FILE = "Radio App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awal.capitalradio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		170DC0201FEE7ABA00218172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2979M63C78;
+				INFOPLIST_FILE = "Radio AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixitale.radioapp1.Radio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio App.app/Radio App";
+			};
+			name = Debug;
+		};
+		170DC0211FEE7ABA00218172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2979M63C78;
+				INFOPLIST_FILE = "Radio AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixitale.radioapp1.Radio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radio App.app/Radio App";
+			};
+			name = Release;
+		};
+		170DC0231FEE7ABA00218172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2979M63C78;
+				INFOPLIST_FILE = "Radio AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixitale.radioapp1.Radio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Radio App";
+			};
+			name = Debug;
+		};
+		170DC0241FEE7ABA00218172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2979M63C78;
+				INFOPLIST_FILE = "Radio AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixitale.radioapp1.Radio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Radio App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170DBFEF1FEE7ABA00218172 /* Build configuration list for PBXProject "Radio App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170DC01A1FEE7ABA00218172 /* Debug */,
+				170DC01B1FEE7ABA00218172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170DC01C1FEE7ABA00218172 /* Build configuration list for PBXNativeTarget "Radio App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170DC01D1FEE7ABA00218172 /* Debug */,
+				170DC01E1FEE7ABA00218172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170DC01F1FEE7ABA00218172 /* Build configuration list for PBXNativeTarget "Radio AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170DC0201FEE7ABA00218172 /* Debug */,
+				170DC0211FEE7ABA00218172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170DC0221FEE7ABA00218172 /* Build configuration list for PBXNativeTarget "Radio AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170DC0231FEE7ABA00218172 /* Debug */,
+				170DC0241FEE7ABA00218172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170DBFEC1FEE7ABA00218172 /* Project object */;
+}
